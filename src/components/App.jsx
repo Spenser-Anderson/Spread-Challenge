@@ -1,6 +1,11 @@
 import React from "react";
 
 function App() {
+  
+const items = [];
+  
+items.forEach(makeList);
+  
   return (
     <div className="container">
       <div className="heading">
